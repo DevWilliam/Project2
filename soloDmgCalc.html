@@ -18,15 +18,26 @@
         </div>
     </div>
 
-    <div class="sideBar">
-        <div class="btnList" id="buttonNav">
-            <button class="btnClass" onclick="location.href = 'soloDmgCalc.html';">Solo Damage Calculator</button>
-            <button class="btnClass">Group Damage Calculator</button>
-            <button class="btnClass">Clan Damage Calculator</button>
+    <div class="body">
+        <div class="sideBar">
+            <div class="btnList" id="buttonNav">
+                <button class="btnClass" onclick="location.href = 'soloDmgCalc.html';">Solo Damage Calculator</button>
+                <button class="btnClass">Group Damage Calculator</button>
+                <button class="btnClass">Clan Damage Calculator</button>
 
+            </div>
         </div>
+
+        <div class="bodyDiv">
+            <form>
+                Username:<br>
+                <input id="uName" type="text" name="username"><br>
+                <button class="searchBtn" onclick="loadDoc()" >SEARCH</button>
+                <p id="output"></p>
+            </form>
+        </div>
+
     </div>
-    <div class="bodyDiv">SOOOOOOOOOLLLLLLLLLLOOOOOOOOOOOOOOOOOOO</div>
 </div>
 </body>
 </html>

@@ -34,7 +34,6 @@ body
     min-width: 100px;
     z-index: 2;
     height: 100%;
-    position: absolute;
 }
 .btnClass
 {
@@ -50,4 +49,12 @@ body
 .btnList
 {
     width:100%;
+}
+.body
+{
+    display: flex;
+}
+.bodyDiv
+{
+    flex-grow: 1;
 }
